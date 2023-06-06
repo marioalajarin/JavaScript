@@ -1,0 +1,114 @@
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color:#3d3d3d !important;
+    background-size: cover !important;
+}
+table{
+    width: 80% !important;
+}
+table,th,tr,td{
+    text-align: center;
+    background-color: rgb(131, 69, 69);
+    color: white;
+    
+}
+
+th{
+    background-color: rgb(255, 132, 132);
+}
+
+.header{
+    display: flex;
+    
+    justify-content: center; 
+    align-items: flex-start;    
+    background-color: #3d3d3d;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky; /* Safari */
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.footer{
+    background-color:   #212529 ;
+    height: 100%;
+    padding: 15px;
+    gap: 35%;
+    position:fixed;
+    bottom: 0;
+    top: 89%;
+    width: 100%;
+}
+
+.cuerpo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.twitter{
+    width: 70px;
+}
+.instagram{
+    width: 70px;
+}
+.facebook{
+    width:40px;
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.img-logo{
+    width: 75px;
+}
+
+.links1,.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+p{
+    color: white;
+}
+
+
+
+.img-logo{
+    margin-right: 85px;
+}
+
+@media screen and (max-width:991px) {
+    .img-logo{
+        margin: 0;
+    }
+}
+
+

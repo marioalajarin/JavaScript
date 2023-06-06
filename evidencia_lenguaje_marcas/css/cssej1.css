@@ -1,0 +1,29 @@
+table,th,tr,td{
+    border: 1px black solid;
+    text-align: center;
+}
+
+table{
+    margin: 50px;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+}
+
+
+th{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+td{
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+h1,a{
+    text-decoration: none;
+    color: white;
+}
